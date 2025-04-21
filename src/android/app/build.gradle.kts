@@ -28,7 +28,7 @@ val downloadedJniLibsPath = "${buildDir}/downloadedJniLibs"
 android {
     namespace = "org.citra.citra_emu"
 
-    compileSdkVersion = "android-35"
+    compileSdkVersion = "android-34"
     ndkVersion = "27.1.12297006"
 
     compileOptions {
@@ -64,7 +64,7 @@ android {
         // the Play Store listing, which was originally set up for Lime3DS, to still be used.
         applicationId = "io.github.lime3ds.android"
         minSdk = 28
-        targetSdk = 35
+        targetSdk = 34
         versionCode = autoVersion
         versionName = getGitVersion()
 
